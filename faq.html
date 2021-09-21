@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script>
+
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
             document.getElementById("main").style.marginLeft = "250px";
         }
+
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
@@ -20,10 +22,15 @@
         }
     </script>
     <script src="https://kit.fontawesome.com/32ee1d45c9.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Milan's Website</h1>
+    <h1>Frequently Asked Questions</h1>
     <nav>
         <ul>
             <li><a><span onclick="openNav()"><i class="fas fa-bars"></i></span></a></li>
@@ -49,30 +56,28 @@
         <li><a href="https://apps.hz.nl/angular/studievoortgang/studiestatus.html">HZ studievoortgang</a></li>
         <li><a href="https://github.com/MilanVanOverbeeke/MilanVanOverbeeke.github.io">github</a></li>
     </div>
-    <main>
-        <article>
-            <h1>Motivatie</h1>
-            <section>
-                Ik ben al sinds de basisschool geïnteresseerd geweest in computers en vroeg me altijd al af hoe
-                programma's erop werden gemaakt. In mijn derde leerjaar had ik mijn eigen gaming-pc gebouwd. In mijn
-                vierde leerjaar had ik informatica gekozen als extra keuzevak en dat werd mijn favoriete vak want ik
-                vond het heel erg interessant in tegenstelling tot mijn andere vakken. We hadden dat jaar een website
-                gemaakt zonder enige programmeerervaring en ik had daar heel veel tijd ingestopt omdat ik het zo leuk
-                vond om een website te bouwen. En in de vijfde hadden we nog een website gebouwd met een PHP-webserver
-                en die ging gelukkig veel beter dan de vorige website. En daarom heb ik voor ICT gekozen omdat ik het gewoon heel
-                interessant en leuk vindt.
-            </section>
-            <img src="images/milan.jpg" alt="Milan van Overbeeke" width="375" height="450">
-        </article>
-    </main>
-    <footer>
-        <ul>
-            <li>Milan van Overbeeke</li>
-            <li><a href="https://hz.nl/">hz.nl</a></li>
-            <li><a href="https://learn.hz.nl/my/">learn.hz.nl</a></li>
-            <img src="images/hz_logo_1.jpg" alt="hz logo" width="100" height="100">
-        </ul>
-    </footer>
+    <article id="faq">
+
+        <h3>1. Hoe print je een document hier op HZ?</h3>
+        <p>print.hz.nl</p>
+        <h3>2. Hoe scan je een document en stuur je dit naar je laptop hier op de HZ?</h3>
+        <p>Als je verbonden bent met de printer kan je je HZ pas scannen en dan met de printer inscannen. Het PDF
+            bestand zou automatisch op je computer moeten komen.</p>
+        <h3>3. Wat moet je doen als je ziek bent of symptomen van het corona virus?</h3>
+        <p>Als je ziek bent of coronaklachten hebt moet je echt niet naar school komen en het je docent via teams
+            laten weten. Volg alle lessen zodat je geen achterstand oploopt</p>
+        <h3>4. Hoe kun je een projectruimte boeken in één van de vleugels van het gebouw?</h3>
+        <p> Als je inlogt op MYHZ kan je via je Persoonlijk Menu naar Selfservice Portal gaan. Vanuit hier kan je
+            een nieuwe reservering aanvragen. Hierna kies je een tijdspan voor wanneer je de ruimte wil huren en ben
+            je klaar.</p>
+        <h3>5. Wat zijn de instructies om je auto te parkeren op het HZ parkeerterrein?</h3>
+        <p>Gratis parkeren is mogelijk op het parkeerterrein van PZEM aan de Poelendaelesingel 10 in Middelburg. Dit
+            is op een paar minuten lopen afstand naar de HZ. Het is helaas niet mogelijk om direct bij het HZ-pand
+            te parkeren. Bij het pand zelf zijn wel twee invalideplaatsen en plekken voor HZ-auto’s.
+            Let op, parkeer je aan de Poelendaelesingel, dan kun je niet via het tunneltje de HZ bereiken i.v.m. de
+            bouwwerkzaamheden voor het Joint Research Center Zeeland. Je kan via het kruispunt bij de stoplichten
+            oversteken.</p>
+    </article>
 </body>
 
 </html>
